@@ -15,11 +15,11 @@ public class Move {
         System.out.print("Enter second number: ");
         double num2 = scanner.nextDouble();
 
-        // Calculating the sum
-        double sum = num1 + num2;
+        // Calculating the subtract
+        double sum = num1 - num2;
 
         // Displaying the result
-        System.out.println("The sum of " + num1 + " and " + num2 + " is: " + sum);
+        System.out.println("The subtract  of " + num1 + " and " - num2 + " is: " + sum);
 
         scanner.close();
     }
